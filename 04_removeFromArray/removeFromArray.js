@@ -1,6 +1,7 @@
 const removeFromArray = function (array, ...removeVals) {
-
     const newArray = [];
+
+
 
     array.forEach((item) => {
         if (!removeVals.includes(item)) {
